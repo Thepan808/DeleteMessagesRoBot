@@ -79,9 +79,9 @@ GIT_REPO_LINK = "https://github.com/SpEcHiDe/DeleteMessagesRoBot"
 START_MESSAGE = get_config("START_MESSAGE", (
     "Olá caro usuário, sou um bot para deletar <s>Todas as mensagens</s> em seu canal ou grupo. "
     "\n\n"
-    f"♦️ Para me usar: read 👉 {REQD_PERMISSIONS} 👈"
+    f"♦️ Para me usar: Coloque as permissões no admin: ♦ De convidar link, de apagar mensagens e mandar mensagem ou coloque admin completo ♦"
     "\n\n"
-    f"Está com dúvidas? Entre em contato 👉 [Criador](t.me/xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx 👈"
+    f"Está com dúvidas? Entre em contato 🔗 t.me/xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx 🔱"
 ))
 START_COMMAND = get_config("START_COMMAND", "start")
 DEL_ALL_COMMAND = get_config("DEL_ALL_COMMAND", "delall")
