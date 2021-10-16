@@ -77,34 +77,34 @@ REQD_PERMISSIONS = "https://t.me/SpEcHlDe/857"
 GIT_REPO_LINK = "https://github.com/SpEcHiDe/DeleteMessagesRoBot"
 """ strings to be used in the bot """
 START_MESSAGE = get_config("START_MESSAGE", (
-    "I'm a bot that can delete <s>all</s> your channel or supergroup messages. "
+    "Olá caro usuário, sou um bot para deletar <s>Todas as mensagens</s> em seu canal ou grupo. "
     "\n\n"
-    f"To use me: read 👉 {REQD_PERMISSIONS} 👈"
+    f"♦️ Para me usar: read 👉 {REQD_PERMISSIONS} 👈"
     "\n\n"
-    f"In case of issues, contact 👉 {GIT_REPO_LINK} 👈"
+    f"Está com dúvidas? Entre em contato 👉 [Criador](t.me/xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx 👈"
 ))
 START_COMMAND = get_config("START_COMMAND", "start")
 DEL_ALL_COMMAND = get_config("DEL_ALL_COMMAND", "delall")
 BEGINNING_DEL_ALL_MESSAGE = get_config("BEGINNING_DEL_ALL_MESSAGE", (
-    "trying to delete all messages"
+    "Pronto para começar à apagar todas as mensagens"
 ))
 IN_CORRECT_PERMISSIONS_MESSAGE = get_config("IN_CORRECT_PERMISSIONS_MESSAGE", (
-    "something went wrong. \n\n"
+    "Algo deu errado. \n\n"
     "<code>{}</code>"
     "\n\n"
-    f"please verify <a href='{REQD_PERMISSIONS}'>all permissions</a>, "
+    f"Verifique <a href='{REQD_PERMISSIONS}'>todas as permissões</a>, "
     "and try again after sometime."
 ))
 SEL_DEL_COMMAND = get_config("SEL_DEL_COMMAND", "seldel")
 BEGINNING_SEL_DEL_MESSAGE = get_config("BEGINNING_SEL_DEL_MESSAGE", (
-    "trying to delete your selected messages"
+    "Começando para apagar sua mensagem selecionada"
 ))
 DEL_FROM_COMMAND = get_config("DEL_FROM_COMMAND", "delfrom")
 DEL_TO_COMMAND = get_config("DEL_TO_COMMAND", "delto")
 NOT_USED_DEL_FROM_DEL_TO_MESSAGE = get_config(
     "NOT_USED_DEL_FROM_DEL_TO_MESSAGE", (
-        f"please use /{DEL_FROM_COMMAND} or /{DEL_TO_COMMAND} "
-        f"before using /{SEL_DEL_COMMAND}"
+        f"Fela, use /{DEL_FROM_COMMAND} ou /{DEL_TO_COMMAND} "
+        f"Agora pae, comece usando o /{SEL_DEL_COMMAND}"
     )
 )
 TL_FILE_TYPES = (
